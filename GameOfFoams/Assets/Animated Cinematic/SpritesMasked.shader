@@ -1,4 +1,6 @@
-﻿Shader "Custom/SpriteMasked"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/SpriteMasked"
 {
 	Properties
 	{
@@ -50,7 +52,7 @@
 			v2f vert (appdata v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uvMain = TRANSFORM_TEX(v.uv, _MainTex);
 				o.uvNoise1 = TRANSFORM_TEX(v.uv, _EffectTex1);
 				o.uvNoise2 = TRANSFORM_TEX(v.uv, _EffectTex2);
