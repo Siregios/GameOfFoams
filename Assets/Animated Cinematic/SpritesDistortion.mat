@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SpritesDistortion
+  m_Shader: {fileID: 4800000, guid: 43b24a2bb9454d84ebbd63436ebbb939, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _EffectMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 069541e3b1bfc6741bdf60a8af50c394, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EffectMask2
+      second:
+        m_Texture: {fileID: 2800000, guid: 31b150ed32c5fc14eae386d94253631a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EffectTex1
+      second:
+        m_Texture: {fileID: 2800000, guid: 28c3993357493d5439b75ec12e341b02, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EffectTex2
+      second:
+        m_Texture: {fileID: 2800000, guid: 28c3993357493d5439b75ec12e341b02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: bfa2f390185922440b6f9f522ad6e2d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Intensity
+      second: 0.025
+    - first:
+        name: _Intensity2
+      second: 0.1
+    m_Colors:
+    - first:
+        name: _LightColor
+      second: {r: 0.2647059, g: 0.42190665, b: 1, a: 1}
+    - first:
+        name: _LightColor2
+      second: {r: 0.9148074, g: 0.38235295, b: 1, a: 1}
+    - first:
+        name: _Shift
+      second: {r: 0.01, g: 0.02, b: 0.01, a: 0.005}
+    - first:
+        name: _Shift2
+      second: {r: 0, g: 0, b: 0, a: 0}
