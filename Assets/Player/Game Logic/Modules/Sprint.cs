@@ -7,6 +7,9 @@ public class Sprint : MonoBehaviour {
     protected float speedMultiplier = 2;
 protected float Duration = 100;
     protected float MaxDuration= 100;
+    protected float DurationRate = .1;
+    protected float RecoveryRate = 1;
+    
     //May need to playaround with the duration time in final build. 
     InputToMovement movement;
     IInput input;
@@ -22,12 +25,12 @@ protected float Duration = 100;
         if (input.sprinting && Duraiton > 0)
         {
             movement.speedMultiplier = speedMultiplier;
-            Duration - .1;
+            Duration - DurationRate;
         }
         if(Duration <= 0)
         {
         movemnt.speedMultiplyer = 1f;
-            Duration + 1;
+            Duration + RecoveryRate;
             //Again, may need a bit of playing around
         }    
         else
