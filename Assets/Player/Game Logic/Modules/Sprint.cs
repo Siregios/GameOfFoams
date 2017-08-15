@@ -5,9 +5,9 @@ public class Sprint : MonoBehaviour {
 
     [SerializeField]
     protected float speedMultiplier = 2;
-protected float Duration = 100;
+    protected float Duration = 100;
     protected float MaxDuration= 100;
-    protected float DurationRate = .1;
+    protected float DurationRate = 0.1f;
     protected float RecoveryRate = 1;
     
     //May need to playaround with the duration time in final build. 
@@ -22,15 +22,15 @@ protected float Duration = 100;
 
     void Update()
     {
-        if (input.sprinting && Duraiton > 0)
+        if (input.sprinting && Duration > 0)
         {
             movement.speedMultiplier = speedMultiplier;
-            Duration - DurationRate;
+            Duration -= DurationRate;
         }
         if(Duration <= 0)
         {
-        movemnt.speedMultiplyer = 1f;
-            Duration + RecoveryRate;
+            movement.speedMultiplier = 1f;
+            Duration += RecoveryRate;
             //Again, may need a bit of playing around
         }    
         else
