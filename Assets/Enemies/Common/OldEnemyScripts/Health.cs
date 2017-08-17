@@ -25,6 +25,9 @@ public class Health : MonoBehaviour, ITeamReference {
     protected Team team;
     public Team Team { get { return team; } set { team = value; } }
 
+    [SerializeField]
+    protected float invulnTimeAfterDamage = 0.0f;
+
     [SerializeField, ReadOnly]
     private float hitpoints;
     public float Hitpoints { get { return hitpoints; }
@@ -70,7 +73,17 @@ public class Health : MonoBehaviour, ITeamReference {
 
     public void Heal(float amount) { Hitpoints = Mathf.Min(maxHealth, hitpoints + amount); }
 
-    public void Damage(float amount) { Hitpoints = Mathf.Max(0, hitpoints - amount); }
+    public void Damage(float amount) {
+        if (invuln <= 0.0f) {
+            Hitpoints = Mathf.Max(0, hitpoints - amount);
+            invuln = invulnTimeAfterDamage;
+        }
+    }
+
+    float invuln = -1.0f;
+    void Update() {
+        invuln -= Time.deltaTime;
+    }
 
     /// <summary>
     /// If you don't know which one to use, use this one

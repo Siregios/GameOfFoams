@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class BigBoss : BossBase {
 
+    public Animator swordController;
+
     // Use this for initialization
     protected override void Start() {
         base.Start();
@@ -12,6 +14,7 @@ public class BigBoss : BossBase {
     }
 
     Coroutine focusRoutine = null;
+    float swingCooldown = 0.0f;
 
     // Update is called once per frame
     void Update() {
@@ -24,6 +27,17 @@ public class BigBoss : BossBase {
         } else if (focusRoutine != null) {
             StopCoroutine(focusRoutine);
             focusRoutine = null;
+        }
+
+        swingCooldown -= Time.deltaTime;
+        if (swingCooldown <= 0.0f) {
+            float sqrDist = Vector3.SqrMagnitude(transform.position - player.position);
+            float minDist = 5.0f;
+            if (sqrDist < minDist * minDist) {
+                // try to attack
+                swordController.SetTrigger("Attack");
+                swingCooldown = 2.0f;
+            }
         }
 
 
