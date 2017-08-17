@@ -97,7 +97,7 @@ public class Health : MonoBehaviour, ITeamReference {
         {
             foreach (IDeathAction death in deathActions)
             {
-                death.Die();
+                death.Die();    // wow wat a beautiful statement
             }
         }
     }

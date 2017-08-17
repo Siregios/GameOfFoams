@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -52,7 +52,7 @@ LightmapSettings:
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 0
-    m_EnableRealtimeLightmaps: 0
+    m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 9
     m_Resolution: 2
@@ -86,7 +86,7 @@ LightmapSettings:
     m_PVRFilteringAtrousColorSigma: 1
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
-  m_LightingDataAsset: {fileID: 112000001, guid: 71c2ea34773c8a04b87713cf7953a710,
+  m_LightingDataAsset: {fileID: 112000002, guid: d2c98852c28412246aa84f886b5f5fff,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -2102,7 +2102,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4362779021170686, guid: 29f28736ccbb62a45b37170a9e95c5fd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.97
+      value: -6.68
       objectReference: {fileID: 0}
     - target: {fileID: 4362779021170686, guid: 29f28736ccbb62a45b37170a9e95c5fd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2110,7 +2110,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4362779021170686, guid: 29f28736ccbb62a45b37170a9e95c5fd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -35.27
       objectReference: {fileID: 0}
     - target: {fileID: 4362779021170686, guid: 29f28736ccbb62a45b37170a9e95c5fd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2132,6 +2132,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 23465691883493054, guid: 29f28736ccbb62a45b37170a9e95c5fd,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f245d2f7682ed346aa12510149bb455, type: 2}
+    - target: {fileID: 23899235740089754, guid: 29f28736ccbb62a45b37170a9e95c5fd,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f245d2f7682ed346aa12510149bb455, type: 2}
+    - target: {fileID: 23998523413323842, guid: 29f28736ccbb62a45b37170a9e95c5fd,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f245d2f7682ed346aa12510149bb455, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29f28736ccbb62a45b37170a9e95c5fd, type: 2}
   m_IsPrefabParent: 0
