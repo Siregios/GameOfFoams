@@ -19,23 +19,26 @@ public class HealthPotion : MonoBehaviour {
     /// </summary>
     public event HealthPotionEvent healthPotionEvent = delegate { };
     Health health;
-    IInput input;
+  //  IInput input;
     float readyTime = 0;
 
     void Start()
     {
-        input = GetComponentInParent<IInput>();
+        //input = GetComponentInParent<IInput>();
         health = GetComponentInParent<Health>();
     }
 
-    void Update()
+   void Update()
     {
-        if (input.potion && Time.time > readyTime && numPotions > 0)
+        if (Input.GetKeyDown(KeyCode.F) && Time.time > readyTime && numPotions > 0)
         {
-            health.Heal(healingAmount);
-            numPotions--;
-            readyTime = Time.time + cooldown;
-            healthPotionEvent();
+          
+                health.Heal(healingAmount);
+                numPotions--;
+                readyTime = Time.time + cooldown;
+                healthPotionEvent();
+            
+
         }
     }
 }
