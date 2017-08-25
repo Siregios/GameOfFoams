@@ -9,6 +9,7 @@ public class BossBase : MonoBehaviour {
     // prob reference to camera later
     protected AudioSource source;
     protected NavMeshAgent agent;
+    protected Rigidbody rigid;
     protected int playerLayer;
 
     protected Transform player;
@@ -26,6 +27,7 @@ public class BossBase : MonoBehaviour {
 
         source = GetComponent<AudioSource>();
         agent = GetComponent<NavMeshAgent>();
+        rigid = GetComponent<Rigidbody>();
 
     }
 
@@ -37,10 +39,9 @@ public class BossBase : MonoBehaviour {
             Vector3 dir = (target.position - transform.position).normalized;
             Quaternion lookRot = Quaternion.LookRotation(new Vector3(dir.x, 0.0f, dir.z));
             transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRot, degreesPerSec * Time.deltaTime);
-            yield return 0;
+            time -= Time.deltaTime;
+            yield return null;
         }
-        //dir = (target.position - transform.position).normalized;
-        //transform.rotation = Quaternion.LookRotation(new Vector3(dir.x, 0.0f, dir.z));
     }
 
     // look at a position at a rate of degreesPerSec
@@ -55,7 +56,7 @@ public class BossBase : MonoBehaviour {
             transform.rotation = Quaternion.Slerp(startRot, lookRot, t);
             float r = (angle < 1.0f) ? degreesPerSec : degreesPerSec / angle;
             t += r * Time.deltaTime;
-            yield return 0;
+            yield return null;
         }
         transform.rotation = lookRot;
     }
