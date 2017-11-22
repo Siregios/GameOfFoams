@@ -1,14 +1,14 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Sprint : MonoBehaviour {
 
     [SerializeField]
-    protected float speedMultiplier = 2;
-    protected float Duration = 100;
+public float speedMultiplier = 1;
+   public float Duration = 100;
     protected float MaxDuration= 100;
     protected float DurationRate = 0.1f;
-    protected float RecoveryRate = 1;
+    protected float RecoveryRate = 0.01f;
     
     //May need to playaround with the duration time in final build. 
     InputToMovement movement;
@@ -22,20 +22,29 @@ public class Sprint : MonoBehaviour {
 
     void Update()
     {
-        if (input.sprinting && Duration > 0)
+        if (Input.GetButton("Sprint") && Duration > 0)
         {
+           
             movement.speedMultiplier = speedMultiplier;
             Duration -= DurationRate;
+            if (Duration <= 0)
+            {
+                movement.speedMultiplier = 1f;
+                //Again, may need a bit of playing around
+            }
         }
-        if(Duration <= 0)
-        {
-            movement.speedMultiplier = 1f;
-            Duration += RecoveryRate;
-            //Again, may need a bit of playing around
-        }    
+
+       
         else
         {
             movement.speedMultiplier = 1f;
+            Duration += RecoveryRate;
+
+           
+        }
+        if (Duration >= MaxDuration)
+        {
+            Duration = MaxDuration;
         }
     }
 }

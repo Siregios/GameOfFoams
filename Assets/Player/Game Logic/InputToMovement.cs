@@ -1,10 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody))]
 public class InputToMovement : MonoBehaviour
 {
-    public Animator anim;
     Rigidbody rigid;
     Vector3 movementInput;
     IInput input;
@@ -37,8 +36,7 @@ public class InputToMovement : MonoBehaviour
         Vector3 movementInput = input.movementInput;
         Vector3 rigidbodyXZ = rigid.velocity;
         rigidbodyXZ.y = 0;
-        anim.SetBool("Moving", movementInput.magnitude != 0);
-        Vector3 movementXZ = Vector3.MoveTowards(rigidbodyXZ, movementInput * speed, Time.deltaTime * acceleration);
+        Vector3 movementXZ = Vector3.MoveTowards(rigidbodyXZ, movementInput * speed , Time.deltaTime * acceleration);
         Vector3 newVel = new Vector3(movementXZ.x, rigid.velocity.y, movementXZ.z);
 
         rigid.velocity = newVel;
