@@ -7,5 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/Animated Cinematic/Example Animated Sprite.unity
+    guid: 2c811d494e803b342bef0080f539ebd6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Main.unity
+    path: Assets/Scenes/AnimationTest/AnimationTest.unity
+    guid: fb7ebe5ac7b79484e846f32b7f95ba47

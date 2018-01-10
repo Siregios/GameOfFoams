@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 653d3558e2590754793ff39517681926
+timeCreated: 1515526702
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Base_Tail_Jnt
+    100002: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:cat_geo
+    100004: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12
+    100006: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 1
+    100008: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 2
+    100010: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 3
+    100012: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13
+    100014: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 1
+    100016: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 2
+    100018: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 3
+    100020: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14
+    100022: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 1
+    100024: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 2
+    100026: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 3
+    100028: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18
+    100030: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 1
+    100032: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 2
+    100034: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 3
+    100036: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19
+    100038: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 1
+    100040: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 2
+    100042: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 3
+    100044: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_01
+    100046: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_02
+    100048: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_03
+    100050: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_04
+    100052: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_05
+    100054: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_01
+    100056: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_02
+    100058: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_03
+    100060: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_BLShape
+    100062: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_FK_Paw_Rigs
+    100064: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_fkSpine_Parent
+    100066: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IK_limbAll_Ctrls
+    100068: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Ik_Spine
+    100070: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IK_Spine_Rig
+    100072: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IKFK_Switch
+    100074: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipCtrl_To_IkFoot
+    100076: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipCtrl_To_IkFoot 1
+    100078: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipsCtrl_To_rootCtrl
+    100080: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_ikspine_to_fkSpine
+    100082: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Jnts
+    100084: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_FK_backPaw_Rig
+    100086: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_FK_foreArm_Rig
+    100088: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_backLeg_Rig
+    100090: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Foot_Rig
+    100092: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Foot_Rig 1
+    100094: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_frontLeg_Rig
+    100096: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Hip_Rig
+    100098: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Knee_Ctrl
+    100100: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_childTo_Ctrl
+    100102: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_Ctrl
+    100104: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_Rig
+    100106: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IKShoulder_to_Spine
+    100108: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIK_fntLeg_Child_to_spine
+    100110: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIK_Hip_childTo_Ctrl
+    100112: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIkShoulderCtrl_To_IkFoot
+    100114: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_lowerBody_Jnts
+    100116: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Mesh
+    100118: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_FK_backPaw_Rig
+    100120: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_FK_forePaw_Rig
+    100122: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_backLeg_Rig
+    100124: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Foot_Rig
+    100126: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Foot_Rig 1
+    100128: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_frontLeg_Rig
+    100130: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Hip_Rig
+    100132: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Knee_Ctrl
+    100134: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_childTo_Ctrl
+    100136: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_Ctrl
+    100138: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_Rig
+    100140: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Rig
+    100142: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Rig_All
+    100144: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIK_fntLeg_Child_to_spine
+    100146: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIK_Hip_childTo_Ctrl
+    100148: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIkShoulderCtrl_To_IkFoot
+    100150: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Root
+    100152: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Scale
+    100154: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Shoulder_IK
+    100156: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Shoulder_Offset
+    100158: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_01
+    100160: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_02
+    100162: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_03
+    100164: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_01
+    100166: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_02
+    100168: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_03
+    100170: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_04
+    100172: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_05
+    100174: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_06
+    100176: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_07
+    100178: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_08
+    100180: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_UpperBody_Jnts
+    100182: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_upperBody_Rig
+    100184: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_upSpine_to_FKspine
+    100186: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Ctrl
+    100188: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Jnt
+    100190: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Jnt_Dummy
+    100192: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Hip_Ctrl
+    100194: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_FK_Switch
+    100196: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Ctrl
+    100198: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_01
+    100200: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_02
+    100202: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_03
+    100204: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_04
+    100206: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_05
+    100208: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_06
+    100210: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_07
+    100212: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Jtb_Hips
+    100214: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Jtb_Shoulder
+    100216: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L__IK_hipPivot_Jnt
+    100218: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ankle_Ctrl
+    100220: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_backLeg_ikHandle
+    100222: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_backPaw_Ctrl
+    100224: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Ankle_Jnt
+    100226: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Ankle_Jnt 1
+    100228: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_backToe_Jnt
+    100230: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Clav_Jnt
+    100232: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Elbow_Jnt
+    100234: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_forePaw_Jnt
+    100236: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_foreToe_Jnt
+    100238: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Heel_Jnt
+    100240: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Hip_Jnt
+    100242: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Hip_Jnt_02
+    100244: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Shoulder_Jnt
+    100246: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Shoulder_Jnt_02
+    100248: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Base_Jnt
+    100250: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Ctrl
+    100252: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Jnt_02
+    100254: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Jnt_Dummy
+    100256: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Tip_Ctrl
+    100258: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Elbow_Ctrl
+    100260: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Ankle_Jnt
+    100262: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Ankle_Jnt 1
+    100264: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_backPaw_jnt
+    100266: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Elbow_Jnt
+    100268: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Heel_Jnt
+    100270: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Hip_Jnt1
+    100272: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Hip_Jnt_02
+    100274: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Shoulder_Jnt1
+    100276: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Shoulder_Jnt_02
+    100278: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_foreArm_ikHandle
+    100280: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_foreArm_ikHandle 1
+    100282: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_forePaw_Ctrl
+    100284: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Heel_Ctrl
+    100286: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Hip_Ctrl
+    100288: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Hip_Ctrl_02
+    100290: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Ankle_Jnt
+    100292: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Ankle_Jnt 1
+    100294: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_backPaw_Ctrl
+    100296: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Elbow_Jnt
+    100298: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_forePaw_Ctrl
+    100300: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Heel_Jnt
+    100302: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Ctrl
+    100304: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Jnt2
+    100306: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Jnt_02
+    100308: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Knee_Ctrl
+    100310: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Ctrl
+    100312: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Ctrl 1
+    100314: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Jnt2
+    100316: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Jnt_02
+    100318: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Shoulder_Ctrl
+    100320: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Shoulder_Ctrl_02
+    100322: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Wrist_Ctrl
+    100324: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Mouth_Jnt_Dummy
+    100326: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Ctrl_01
+    100328: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Ctrl_02
+    100330: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Jnt_01
+    100332: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Jnt_02
+    100334: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_01
+    100336: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_02
+    100338: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_03
+    100340: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Head
+    100342: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Hip_Ctrl
+    100344: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_IK_Spine
+    100346: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ankle
+    100348: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_backPaw
+    100350: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ear
+    100352: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ear_Tip
+    100354: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Elbow
+    100356: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_forePaw
+    100358: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Heel
+    100360: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Hip
+    100362: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Hip_02
+    100364: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Shoulder
+    100366: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Shoulder_02
+    100368: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Wrist
+    100370: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Neck_01
+    100372: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Neck_02
+    100374: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Ear
+    100376: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Ear_Tip
+    100378: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Elbow
+    100380: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Ankle
+    100382: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_backPaw
+    100384: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Heel
+    100386: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Hip
+    100388: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Hip_02
+    100390: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_forePaw
+    100392: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Shoulder
+    100394: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Shoulder_02
+    100396: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Wrist
+    100398: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Root_Ctrl
+    100400: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_01
+    100402: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_02
+    100404: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_03
+    100406: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_04
+    100408: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_05
+    100410: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_06
+    100412: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_07
+    100414: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_08
+    100416: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_01
+    100418: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_02
+    100420: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_03
+    100422: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_backLeg_ikHandle
+    100424: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Ankle_Jnt
+    100426: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Ankle_Jnt 1
+    100428: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_backPaw_Jnt
+    100430: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_backToe_Jnt
+    100432: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Clav_Jnt1
+    100434: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Elbow_Jnt
+    100436: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_forePaw_Jnt
+    100438: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_foreToe_Jnt
+    100440: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Heel_Jnt
+    100442: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Hip_Jnt
+    100444: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Hip_Jnt_02
+    100446: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Shoulder_Jnt
+    100448: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Shoulder_Jnt_02
+    100450: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Base_Jnt
+    100452: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Ctrl
+    100454: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Jnt_Dummy
+    100456: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Tip_Ctrl
+    100458: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Elbow_Ctrl
+    100460: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Ctrl
+    100462: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Jnt
+    100464: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Jnt 1
+    100466: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_backPaw_Ctrl
+    100468: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Elbow_Jnt
+    100470: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Heel_Ctrl
+    100472: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Heel_Jnt
+    100474: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Ctrl
+    100476: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Ctrl_02
+    100478: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Jnt
+    100480: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Jnt_02
+    100482: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Shoulder_Jnt1
+    100484: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Shoulder_Jnt_02
+    100486: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_forePaw_Ctrl
+    100488: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Ankle_Jnt
+    100490: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Elbow_Jnt
+    100492: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Shoulder_Jnt_02
+    100494: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Ankle_Jnt
+    100496: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_backPaw_Ctrl
+    100498: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_forePaw_Ctrl
+    100500: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Heel_Jnt
+    100502: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Ctrl
+    100504: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Jnt
+    100506: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Jnt_02
+    100508: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_hipPivot_Jnt
+    100510: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Knee_Ctrl
+    100512: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Ctrl
+    100514: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Ctrl 1
+    100516: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Jnt1
+    100518: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Shoulder_Ctrl
+    100520: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Shoulder_Ctrl_02
+    100522: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Wrist_Ctrl
+    100524: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:RE_ar_Jnt_02
+    100526: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Root_Ctrl
+    100528: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Root_Jnt
+    100530: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Scale_Ctrl
+    100532: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Spine_Bind_Jnt
+    100534: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Spine_curve
+    100536: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_01
+    100538: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_02
+    100540: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_03
+    100542: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_01
+    100544: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_02
+    100546: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_03
+    100548: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_04
+    100550: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_05
+    100552: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_06
+    100554: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_07
+    100556: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_08
+    100558: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_01
+    100560: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_02
+    100562: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_03
+    100564: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_04
+    100566: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_05
+    100568: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_06
+    100570: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_07
+    100572: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_08
+    100574: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_09
+    100576: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:World_Ctrl
+    100578: //RootNode
+    400000: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Base_Tail_Jnt
+    400002: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:cat_geo
+    400004: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12
+    400006: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 1
+    400008: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 2
+    400010: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller12 3
+    400012: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13
+    400014: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 1
+    400016: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 2
+    400018: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller13 3
+    400020: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14
+    400022: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 1
+    400024: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 2
+    400026: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller14 3
+    400028: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18
+    400030: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 1
+    400032: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 2
+    400034: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller18 3
+    400036: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19
+    400038: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 1
+    400040: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 2
+    400042: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:controller19 3
+    400044: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_01
+    400046: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_02
+    400048: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_03
+    400050: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_04
+    400052: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FK_Spine_Jnt_05
+    400054: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_01
+    400056: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_02
+    400058: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:FKSpine_Ctrl_03
+    400060: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_BLShape
+    400062: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_FK_Paw_Rigs
+    400064: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_fkSpine_Parent
+    400066: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IK_limbAll_Ctrls
+    400068: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Ik_Spine
+    400070: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IK_Spine_Rig
+    400072: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IKFK_Switch
+    400074: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipCtrl_To_IkFoot
+    400076: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipCtrl_To_IkFoot 1
+    400078: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_IkHipsCtrl_To_rootCtrl
+    400080: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_ikspine_to_fkSpine
+    400082: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Jnts
+    400084: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_FK_backPaw_Rig
+    400086: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_FK_foreArm_Rig
+    400088: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_backLeg_Rig
+    400090: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Foot_Rig
+    400092: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Foot_Rig 1
+    400094: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_frontLeg_Rig
+    400096: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Hip_Rig
+    400098: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Knee_Ctrl
+    400100: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_childTo_Ctrl
+    400102: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_Ctrl
+    400104: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IK_Shoulder_Rig
+    400106: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_L_IKShoulder_to_Spine
+    400108: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIK_fntLeg_Child_to_spine
+    400110: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIK_Hip_childTo_Ctrl
+    400112: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_LIkShoulderCtrl_To_IkFoot
+    400114: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_lowerBody_Jnts
+    400116: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Mesh
+    400118: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_FK_backPaw_Rig
+    400120: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_FK_forePaw_Rig
+    400122: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_backLeg_Rig
+    400124: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Foot_Rig
+    400126: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Foot_Rig 1
+    400128: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_frontLeg_Rig
+    400130: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Hip_Rig
+    400132: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Knee_Ctrl
+    400134: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_childTo_Ctrl
+    400136: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_Ctrl
+    400138: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_R_IK_Shoulder_Rig
+    400140: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Rig
+    400142: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Rig_All
+    400144: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIK_fntLeg_Child_to_spine
+    400146: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIK_Hip_childTo_Ctrl
+    400148: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_RIkShoulderCtrl_To_IkFoot
+    400150: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Root
+    400152: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Scale
+    400154: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Shoulder_IK
+    400156: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Shoulder_Offset
+    400158: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_01
+    400160: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_02
+    400162: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_Tail_All_Seg_03
+    400164: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_01
+    400166: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_02
+    400168: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_03
+    400170: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_04
+    400172: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_05
+    400174: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_06
+    400176: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_07
+    400178: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_tailAll_Attr_08
+    400180: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_UpperBody_Jnts
+    400182: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_upperBody_Rig
+    400184: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Grp_upSpine_to_FKspine
+    400186: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Ctrl
+    400188: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Jnt
+    400190: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Head_Jnt_Dummy
+    400192: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Hip_Ctrl
+    400194: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_FK_Switch
+    400196: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Ctrl
+    400198: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_01
+    400200: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_02
+    400202: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_03
+    400204: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_04
+    400206: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_05
+    400208: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_06
+    400210: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:IK_Spine_Jnt_07
+    400212: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Jtb_Hips
+    400214: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Jtb_Shoulder
+    400216: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L__IK_hipPivot_Jnt
+    400218: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ankle_Ctrl
+    400220: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_backLeg_ikHandle
+    400222: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_backPaw_Ctrl
+    400224: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Ankle_Jnt
+    400226: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Ankle_Jnt 1
+    400228: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_backToe_Jnt
+    400230: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Clav_Jnt
+    400232: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Elbow_Jnt
+    400234: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_forePaw_Jnt
+    400236: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_foreToe_Jnt
+    400238: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Heel_Jnt
+    400240: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Hip_Jnt
+    400242: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Hip_Jnt_02
+    400244: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Shoulder_Jnt
+    400246: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Bind_Shoulder_Jnt_02
+    400248: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Base_Jnt
+    400250: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Ctrl
+    400252: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Jnt_02
+    400254: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Jnt_Dummy
+    400256: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Ear_Tip_Ctrl
+    400258: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Elbow_Ctrl
+    400260: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Ankle_Jnt
+    400262: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Ankle_Jnt 1
+    400264: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_backPaw_jnt
+    400266: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Elbow_Jnt
+    400268: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Heel_Jnt
+    400270: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Hip_Jnt1
+    400272: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Hip_Jnt_02
+    400274: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Shoulder_Jnt1
+    400276: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_FK_Shoulder_Jnt_02
+    400278: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_foreArm_ikHandle
+    400280: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_foreArm_ikHandle 1
+    400282: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_forePaw_Ctrl
+    400284: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Heel_Ctrl
+    400286: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Hip_Ctrl
+    400288: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Hip_Ctrl_02
+    400290: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Ankle_Jnt
+    400292: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Ankle_Jnt 1
+    400294: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_backPaw_Ctrl
+    400296: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Elbow_Jnt
+    400298: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_forePaw_Ctrl
+    400300: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Heel_Jnt
+    400302: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Ctrl
+    400304: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Jnt2
+    400306: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Hip_Jnt_02
+    400308: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Knee_Ctrl
+    400310: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Ctrl
+    400312: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Ctrl 1
+    400314: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Jnt2
+    400316: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_IK_Shoulder_Jnt_02
+    400318: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Shoulder_Ctrl
+    400320: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Shoulder_Ctrl_02
+    400322: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:L_Wrist_Ctrl
+    400324: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Mouth_Jnt_Dummy
+    400326: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Ctrl_01
+    400328: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Ctrl_02
+    400330: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Jnt_01
+    400332: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Neck_Jnt_02
+    400334: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_01
+    400336: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_02
+    400338: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_FKSpine_03
+    400340: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Head
+    400342: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Hip_Ctrl
+    400344: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_IK_Spine
+    400346: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ankle
+    400348: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_backPaw
+    400350: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ear
+    400352: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Ear_Tip
+    400354: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Elbow
+    400356: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_forePaw
+    400358: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Heel
+    400360: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Hip
+    400362: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Hip_02
+    400364: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Shoulder
+    400366: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Shoulder_02
+    400368: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_L_Wrist
+    400370: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Neck_01
+    400372: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Neck_02
+    400374: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Ear
+    400376: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Ear_Tip
+    400378: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Elbow
+    400380: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Ankle
+    400382: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_backPaw
+    400384: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Heel
+    400386: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Hip
+    400388: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_FK_Hip_02
+    400390: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_forePaw
+    400392: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Shoulder
+    400394: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Shoulder_02
+    400396: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_R_Wrist
+    400398: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Root_Ctrl
+    400400: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_01
+    400402: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_02
+    400404: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_03
+    400406: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_04
+    400408: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_05
+    400410: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_06
+    400412: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_07
+    400414: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_08
+    400416: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_01
+    400418: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_02
+    400420: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Null_Tail_All_Seg_03
+    400422: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_backLeg_ikHandle
+    400424: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Ankle_Jnt
+    400426: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Ankle_Jnt 1
+    400428: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_backPaw_Jnt
+    400430: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_backToe_Jnt
+    400432: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Clav_Jnt1
+    400434: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Elbow_Jnt
+    400436: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_forePaw_Jnt
+    400438: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_foreToe_Jnt
+    400440: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Heel_Jnt
+    400442: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Hip_Jnt
+    400444: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Hip_Jnt_02
+    400446: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Shoulder_Jnt
+    400448: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Bind_Shoulder_Jnt_02
+    400450: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Base_Jnt
+    400452: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Ctrl
+    400454: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Jnt_Dummy
+    400456: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Ear_Tip_Ctrl
+    400458: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Elbow_Ctrl
+    400460: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Ctrl
+    400462: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Jnt
+    400464: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Ankle_Jnt 1
+    400466: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_backPaw_Ctrl
+    400468: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Elbow_Jnt
+    400470: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Heel_Ctrl
+    400472: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Heel_Jnt
+    400474: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Ctrl
+    400476: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Ctrl_02
+    400478: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Jnt
+    400480: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Hip_Jnt_02
+    400482: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Shoulder_Jnt1
+    400484: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_FK_Shoulder_Jnt_02
+    400486: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_forePaw_Ctrl
+    400488: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Ankle_Jnt
+    400490: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Elbow_Jnt
+    400492: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK__Shoulder_Jnt_02
+    400494: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Ankle_Jnt
+    400496: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_backPaw_Ctrl
+    400498: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_forePaw_Ctrl
+    400500: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Heel_Jnt
+    400502: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Ctrl
+    400504: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Jnt
+    400506: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Hip_Jnt_02
+    400508: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_hipPivot_Jnt
+    400510: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Knee_Ctrl
+    400512: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Ctrl
+    400514: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Ctrl 1
+    400516: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_IK_Shoulder_Jnt1
+    400518: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Shoulder_Ctrl
+    400520: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Shoulder_Ctrl_02
+    400522: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:R_Wrist_Ctrl
+    400524: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:RE_ar_Jnt_02
+    400526: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Root_Ctrl
+    400528: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Root_Jnt
+    400530: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Scale_Ctrl
+    400532: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Spine_Bind_Jnt
+    400534: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Spine_curve
+    400536: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_01
+    400538: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_02
+    400540: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_All_Seg_03
+    400542: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_01
+    400544: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_02
+    400546: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_03
+    400548: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_04
+    400550: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_05
+    400552: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_06
+    400554: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_07
+    400556: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Ctrl_08
+    400558: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_01
+    400560: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_02
+    400562: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_03
+    400564: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_04
+    400566: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_05
+    400568: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_06
+    400570: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_07
+    400572: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_08
+    400574: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:Tail_Jnt_09
+    400576: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:World_Ctrl
+    400578: //RootNode
+    2100000: Cat_Trap_Attack_2nd_Pass_lambert2
+    4300000: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:cat_geo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cat_Trap_Attack_2nd_Pass:CC_Cat_Rig_01:cat_geo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
